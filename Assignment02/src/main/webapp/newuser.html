@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register User</title>
+
+<style>
+	
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: arial;
+}
+
+form
+{
+	padding: 3vh 6vw;
+	border-radius: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-align: left;
+	gap:2vh;
+}
+
+form input 
+{
+	padding: 2vh 4vw;
+	border:none;
+	outline: none;
+	background-color: #dbdbdb;
+	border-radius: 10px;
+	font-size: 15PX;
+	font-weight: 400;
+}
+
+
+</style>
+
+</head>
+<body>
+
+
+
+<form method="post" action="register">
+	<h2 style="margin-bottom: 3vh">Register User</h2>
+<input type="text" name="fName" placeholder="Enter First Name">
+<input type="text" name="lName" placeholder="Enter Last Name">
+<input type="email" name="email" placeholder="Enter Email">
+<input type="password" name="passwd" placeholder="Enter Password">
+<input type="date" name="dob">
+
+<input style="background-color:#6666ff; color: #fff; font-size: 20px; padding: 1vh 2vw; margin-top: 1vh" type="submit" value="Register"/>
+</form>
+
+
+
+
+</body>
+</html>

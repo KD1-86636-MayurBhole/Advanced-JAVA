@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Login</title>
+
+<style>
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+	height: 100vh;
+	width: 100vw;
+	background: #fff;
+	color: #000;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	font-family: Arial;
+}
+
+form
+{
+	padding: 3vh 6vw;
+	border-radius: 20px;
+	display: flex;
+	justify-content: center;
+	/*align-items: center;*/
+	flex-direction: column;
+	text-align: left;
+}
+
+form input 
+{
+	padding: 2vh 4vw;
+	border:none;
+	outline: none;
+	background-color: #dbdbdb;
+	border-radius: 10px;
+	font-size: 15PX;
+	font-weight: 600;
+}
+
+p
+{
+	margin: 2vh;
+	text-align: center;
+}
+
+	
+</style>
+
+</head>
+<body>
+	<h2>Login</h2>
+	<form method="post" action="login">
+		Email: <input type="text" name="email"/> <br/><br/>
+		Password: <input type="password" name="passwd"/> <br/><br/>
+		<input style="background-color:#6666ff; color: #fff; font-size: 20px; padding: 1vh 2vw" type="submit" value="Sign In"/>
+		<p>
+			<a href="newuser.html">Sign Up</a>
+		</p>
+	</form>
+</body>
+</html>
