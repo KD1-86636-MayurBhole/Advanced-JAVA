@@ -1,0 +1,14 @@
+1. create a maven project
+2. add dependencies into pom.xml (update maven project force update of snapshots
+3. create hibernate.cfg.xml file into src/main/resources
+4. create singleton session factory
+5. create a testing class. add main method  // it will create db if db is not present in table.
+6. create a pojo class
+7. add mapping into hibernate.cfg.xml file
+8. then again run testing class. // it will create table into db
+
+
+// to add data into table
+1. create team dao and inside declare method.
+2. create team doa impl and implements dao and override dao's methods.
+3. create testing application.
